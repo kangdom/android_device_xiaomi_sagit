@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/sagit/device.mk)
 # Inherit some common Havoc stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
+# ScreenRecorder
+$(call inherit-product-if-exists, vendor/apps/OPScreenRecord/config.mk)
+
 PRODUCT_NAME := havoc_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
