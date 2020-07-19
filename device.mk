@@ -48,6 +48,9 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.fflag.override.settings_network_and_internet_v2=true
+
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
 
