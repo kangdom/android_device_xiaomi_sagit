@@ -50,5 +50,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/sagit/sagit-vendor.mk)
-$(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
 
+# MiuiCamera
+$(call inherit-product, vendor/apps/MiuiCamera/config.mk)
