@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/sagit/device.mk)
 # Inherit some common Derp stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
+# DerpFest Offcial
+DERP_BUILDTYPE := Official
+
 # Gapps
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
