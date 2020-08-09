@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_sagit.mk
+    $(LOCAL_DIR)/derp_sagit.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_sagit-user \
-    havoc_sagit-userdebug \
-    havoc_sagit-eng
+    derp_sagit-user \
+    derp_sagit-userdebug \
+    derp_sagit-eng
